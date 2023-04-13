@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
+
+:root {
+    --fonte-universal:  'Khand', sans-serif;
+    --color-1: #0c2d48;
+    --color-2: #185d8c;
+    --color-3: #2488c4;
+}
+
+
+body {
+    font-family: var(--fonte-universal);
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-3);
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+button {
+    background-color: var(--color-1);
+    color: var(--color-3);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-3);
+    color: var(--color-1);
+}
+
+#button-container {
+    text-align: center;
+}
+
+#copy-button-container {
+    text-align: center;
+}
+
+/*footer*/
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--color-3);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-lg-start {
+    text-align: left;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display:flex;
+}
+
+.justify-content-center {
+    justify-content:center;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: none;
+    padding: 5px;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+  
+  
+  
